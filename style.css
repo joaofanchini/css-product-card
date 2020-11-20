@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 
 :root{
-    --primary: #f84848;
+    --primary: #2175f5;
 }
 
 * {
@@ -40,26 +40,21 @@
     0px -15px 35px rgba(0,0,0,0.1);
 }
 
-.gradients{
-    width:100%
-}
-
-.gradient{
-    width:0%;
-    z-index: -2;
-}
-
 .gradients, .gradient{
     position: absolute;
     height: 100%;
+    width:100%;
     top:0;
     right: 0;
+}
+
+.gradient{
+    z-index: -2;
 }
 
 .gradient[color="blue"]{
     background-image: linear-gradient(45deg, #0136af,#22abfa);
     z-index: 0;
-    width: 100%;
 }
 
 .gradient[color="red"]{
