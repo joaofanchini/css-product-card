@@ -4,6 +4,13 @@
     margin: 0px;
     text-decoration: none;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
 
+
+/* Escondendo imagens apenas para dev */
+
+.shoe, .logo{
+    display:none;
+}
